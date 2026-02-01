@@ -8,6 +8,7 @@ const noPhrases = [
   "But I'm your sweet boy 😔",
   "But we'd be so cute together, Baby! 💕",
   "What about a maybe?",
+  "Last chance sweetheart",
   "Please I'm fragile 😢"
 ];
 
@@ -44,7 +45,8 @@ yesBtn.addEventListener("click", () => {
     />
     <div class="celebration">Yay!!! 💖🎉</div>
     <p style="font-size:20px;">
-      I knew you always loved me mama 😌💘
+      I knew you would say yes to me mama 😌💘
+      I love u my PRINCESS!!
     </p>
   `;
 });
@@ -83,3 +85,4 @@ function launchConfetti() {
 const script = document.createElement("script");
 script.src = "https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js";
 document.body.appendChild(script);
+
