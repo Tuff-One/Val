@@ -4,7 +4,7 @@ const noPhrases = [
   "uhmmm.. Baby are you sure? 😪",
   "Think about it one more time",
   "If not for me, for baby Atu-Bear 🧸",
-  "What if I faint? 🥲",
+  "What if I faint?",
   "But I'm your sweet boy 😔",
   "But we'd be so cute together, Baby! 💕",
   "What about a maybe?",
@@ -85,4 +85,5 @@ function launchConfetti() {
 const script = document.createElement("script");
 script.src = "https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js";
 document.body.appendChild(script);
+
 
